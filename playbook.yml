@@ -7,6 +7,8 @@
         name: 
           - python3
           - python3-docker
+          - python
+          - python-docker
         state: present
       when: ansible_distribution == "Ubuntu"
     - name: install python-docker centos
