@@ -14,7 +14,6 @@
     - name: install python-docker centos
       yum:
         name:
-          - python3
           - python
           - python-docker
         state: present
